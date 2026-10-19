@@ -1,0 +1,40 @@
+{
+  "python.analysis.persistAllIndices": false,
+  "python.testing.pytestArgs": [
+    "-p",
+    "no:cacheprovider"
+  ],
+  "terminal.integrated.env.linux": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTEST_ADDOPTS": "-p no:cacheprovider",
+    "PIP_NO_CACHE_DIR": "1",
+    "UV_NO_CACHE": "1",
+    "XDG_CACHE_HOME": "/tmp/design-and-build-agentic-systems-guided-lab/cache",
+    "npm_config_cache": "/tmp/design-and-build-agentic-systems-guided-lab/npm",
+    "RUFF_CACHE_DIR": "/tmp/design-and-build-agentic-systems-guided-lab/ruff",
+    "MYPY_CACHE_DIR": "/tmp/design-and-build-agentic-systems-guided-lab/mypy",
+    "PRE_COMMIT_HOME": "/tmp/design-and-build-agentic-systems-guided-lab/pre-commit"
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTEST_ADDOPTS": "-p no:cacheprovider",
+    "PIP_NO_CACHE_DIR": "1",
+    "UV_NO_CACHE": "1",
+    "XDG_CACHE_HOME": "/tmp/design-and-build-agentic-systems-guided-lab/cache",
+    "npm_config_cache": "/tmp/design-and-build-agentic-systems-guided-lab/npm",
+    "RUFF_CACHE_DIR": "/tmp/design-and-build-agentic-systems-guided-lab/ruff",
+    "MYPY_CACHE_DIR": "/tmp/design-and-build-agentic-systems-guided-lab/mypy",
+    "PRE_COMMIT_HOME": "/tmp/design-and-build-agentic-systems-guided-lab/pre-commit"
+  },
+  "terminal.integrated.env.windows": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTEST_ADDOPTS": "-p no:cacheprovider",
+    "PIP_NO_CACHE_DIR": "1",
+    "UV_NO_CACHE": "1",
+    "XDG_CACHE_HOME": "${env:TEMP}\\design-and-build-agentic-systems-guided-lab\\cache",
+    "npm_config_cache": "${env:TEMP}\\design-and-build-agentic-systems-guided-lab\\npm",
+    "RUFF_CACHE_DIR": "${env:TEMP}\\design-and-build-agentic-systems-guided-lab\\ruff",
+    "MYPY_CACHE_DIR": "${env:TEMP}\\design-and-build-agentic-systems-guided-lab\\mypy",
+    "PRE_COMMIT_HOME": "${env:TEMP}\\design-and-build-agentic-systems-guided-lab\\pre-commit"
+  }
+}
